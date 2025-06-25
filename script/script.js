@@ -133,7 +133,7 @@ function createPortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" data-cy="porfolio-img" style="width:100%">
+                    <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" data-cy="portfolio-img" style="width:100%">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
