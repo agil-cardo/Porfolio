@@ -1,0 +1,23 @@
+[
+    {
+        "image": "cypressIO.webp",
+        "title": "Projet suivi de bugs avec Cypress et Jira",
+        "alt": "image du projet suivi de bugs avec Cypress et Jira",
+        "text": "Realisation d'un projet de suivi de bugs avec Cypress et Jira, tests automatisés, tests exploratoires...",
+        "link": "https://github.com/agil-cardo/Projet724Events"
+    },
+    {
+        "image": "Dojo-de-Manas.webp",
+        "title": "Creation en WordPress du site Internet",
+        "alt": "Logo du dojo de Manas, dojo d'aikido",
+        "text": "WebMaster du site, animation des réseaux sociaux, création de contenu",
+        "link": "https://dojodemanas.com"
+    },
+    {
+        "image": "TestStrategie.webp",
+        "title": "Conception de stratégie de tests",
+        "alt": "image de la gestion de projets",
+        "text": "Planning, conception de scenarios de test, gestion de resources",
+        "link": "#"
+    }
+]
