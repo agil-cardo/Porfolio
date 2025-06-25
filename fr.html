@@ -1,114 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-    <div class="container">
-        <a class="navbar-brand" href="#">Alejandro</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">A propos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Compétences</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contactez-moi</a>
-                </li>
-            </ul>
-            <div class="choix-langue">
-                <div class="langue" id="button_fr" onclick="french();">Français</div>
-                <div class="langue" id="button_eng" onclick="english();">Anglais</div>
+
+<head>
+    <!-- ... meta, title, links ... -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alejandro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contactez-moi</a>
+                    </li>
+                </ul>
+                <div class="choix-langue">
+                    <div class="langue" id="button_fr" onclick="french();">Français</div>
+                    <div class="langue" id="button_eng" onclick="english();">Anglais</div>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<!-- main banner -->
-<section class="bgimage" id="home">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h1 class="hero_title" id="hero-type"></h1>
-                <h2 class="hero_desc">je suis <strong>maraîcher</strong> et <strong>développeur web</strong>
-                </h2>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h1 class="hero_title" id="hero-type"></h1>
+                    <h2 class="hero_desc">je suis <strong>maraîcher</strong> et <strong>développeur web</strong>
+                    </h2>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- about section-->
-<section id="about">
-    <div class="container mt-4 pt-4">
-        <h2 class="text-center">A propos</h2>
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <img src="images/photo_agilc.webp" class="imageAboutPage" alt="Portrait Alejandro GIL CARDONA">
-            </div>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center">A propos</h2>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/photo_agilc.webp" class="imageAboutPage" alt="Portrait Alejandro GIL CARDONA">
+                </div>
 
 
-            <div class="col-lg-8">
-                <p>Planter, semer, tailler : voilà la vraie vie, celle qui s’enracine dans la terre. Mais à la
-                    tombée du jour, une autre passion m’appelle : </p>
-                <p><b>le code et l’univers du Web.</b></p>
-                <p>Maraîcher le jour, développeur web la nuit, je cultive aussi bien les jardins que les lignes
-                    de
-                    code.
-                    Curieux et passionné par la technologie, j’aime apprendre sans cesse et relever de nouveaux
-                    défis. Je suis actuellement à la recherche d’une opportunité en tant que développeur web et
-                    <b>Testeur Logiciel</b>.
+                <div class="col-lg-8">
+                    <p>Planter, semer, tailler : voilà la vraie vie, celle qui s’enracine dans la terre. Mais à la
+                        tombée du jour, une autre passion m’appelle : </p>
+                    <p><b>le code et l’univers du Web.</b></p>
+                    <p>Maraîcher le jour, développeur web la nuit, je cultive aussi bien les jardins que les lignes
+                        de
+                        code.
+                        Curieux et passionné par la technologie, j’aime apprendre sans cesse et relever de nouveaux
+                        défis. Je suis actuellement à la recherche d’une opportunité en tant que développeur web et
+                        <b>Testeur Logiciel</b>.
 
-                <p>Ce portfolio crée par OpenClass et moi même, est le fruit de mon parcours :
-                    il reflète mon travail, mes compétences et mon envie de partager. J’espère qu’il saura vous
-                    toucher !</p>
-                <p>Adaptable, motivé et toujours avide de nouveaux défis, je suis actuellement à la recherche
-                    d’opportunités en tant que développeur web. J’espère que mon travail saura vous inspirer
-                    autant que le chemin parcouru m’inspire chaque jour !</p>
-                </p>
+                    <p>Ce portfolio crée par OpenClass et moi même, est le fruit de mon parcours :
+                        il reflète mon travail, mes compétences et mon envie de partager. J’espère qu’il saura vous
+                        toucher !</p>
+                    <p>Adaptable, motivé et toujours avide de nouveaux défis, je suis actuellement à la recherche
+                        d’opportunités en tant que développeur web. J’espère que mon travail saura vous inspirer
+                        autant que le chemin parcouru m’inspire chaque jour !</p>
+                    </p>
 
-            </div>
-
+                </div>
 
 
 
-</section>
 
-<!-- skills section-->
-<section id="skills">
-    <div class="container">
-        <h2 class="text-center">Mes compétences</h2>
-    </div>
-</section>
+    </section>
 
-<!-- portfolio section-->
-<section id="portfolio">
-    <div class="container mt-3">
-        <h2 class="text-center">Mes projets</h2>
-</section>
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center">Mes compétences</h2>
+        </div>
+    </section>
 
-<!-- contact section-->
-<section id="contact">
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h2 class="text-center">Mes projets</h2>
+        </div>
+    </section>
 
-    <div class="container mt-3 contactContent">
-        <h2 class="text-center">Contactez-moi</h2>
-        <div class="row">
-            <div class="col-lg-4 mx-auto contactColumn">
-                <i class="fa-regular fa-envelope fa-4x"></i>
+    <!-- contact section-->
+    <section id="contact">
 
-                <p>Ecrivez moi, je vous répondrai au plus vite</p>
+        <div class="container mt-3 contactContent">
+            <h2 class="text-center">Contactez-moi</h2>
+            <div class="row">
+                <div class="col-lg-4 mx-auto contactColumn">
+                    <i class="fa-regular fa-envelope fa-4x"></i>
 
-                <!-- Contact Form Example 
+                    <p>Ecrivez moi, je vous répondrai au plus vite</p>
+
+                    <!-- Contact Form Example 
                     <form id="contactForm" action="#" method="post">
                         <div class="mb-3">
                             <label for="name" class="form-label">Nom</label>
@@ -124,26 +131,27 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Envoyer</button>
                     </form> -->
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 mt-4 contactColumn">
-                <i class="fa-brands fa-linkedin-in fa-4x"></i>
-                <p><a href="https://www.linkedin.com/in/alejandro-gil-cardona" target="_blank">Alejandro Gil
-                        Cardona</a></p>
-            </div>
-            <div class="col-lg-4 mt-4 contactColumn">
-                <i class="fa-brands fa-instagram fa-4x"></i>
-                <p><a href="https://www.instagram.com/dojo_de_manas/" target="_blank">Dojo de Manas</a></p>
-            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                    <p><a href="https://www.linkedin.com/in/alejandro-gil-cardona" target="_blank">Alejandro Gil
+                            Cardona</a></p>
+                </div>
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa-brands fa-instagram fa-4x"></i>
+                    <p><a href="https://www.instagram.com/dojo_de_manas/" target="_blank">Dojo de Manas</a></p>
+                </div>
 
-            <div class="col-lg-4 mt-4 contactColumn">
-                <i class="fa-brands fa-github fa-4x"></i>
-                <p><a href="https://github.com/agil-cardo" target="_blank">AGIL Cardona</a></p>
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa-brands fa-github fa-4x"></i>
+                    <p><a href="https://github.com/agil-cardo" target="_blank">AGIL Cardona</a></p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<script src="script/script.js"></script>
+    </section>
+    <script src="script/script.js"></script>
 </body>
+
 </html>
